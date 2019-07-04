@@ -30,7 +30,8 @@ class Solution(object):
         first = y[:A.index(newmid)] #first half aka. the negative number half
         newfirst = []
         for j in range(len(first)):
-            newfirst.append(first[-j-1]) #reverse the negative numbers from descending to ascending values
+            newfirst.append(first[-j-1])
+            return newfirst #reverse the negative numbers from descending to ascending values
         
         
         ##### using last part of merge sort #####
